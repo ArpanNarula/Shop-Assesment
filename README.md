@@ -44,7 +44,8 @@ The application fetches product data from a mock API and allows users to browse,
 
 ## Engineering Decisions & Trade-offs
 
-During development, I made a few specific architectural choices to keep the codebase maintainable within the scope of the assignment:
+During development, I made a few specific a<img width="1469" height="800" alt="Screenshot 2026-01-04 at 13 40 56" src="https://github.com/user-attachments/assets/9615a143-52c5-4df8-80ab-f1f6f1c9b58a" />
+rchitectural choices to keep the codebase maintainable within the scope of the assignment:
 
 **1. Component Structure**
 I separated the UI into `ProductCard` and `CartItem` components and placed them in a `src/components` directory. This keeps the main `App.js` focused purely on data fetching and state orchestration, rather than rendering logic.
@@ -65,3 +66,7 @@ If this were a production app, I would add:
 * Unit tests for the filtering logic (currently only basic rendering tests are included).
 * Pagination for the product feed if the dataset grows larger than 20 items.
 * A "Toast" notification system to give better user feedback when an item is added to the cart.
+
+
+
+
